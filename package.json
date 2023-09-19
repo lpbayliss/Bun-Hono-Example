@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^3.6.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "bun-types": "^0.6.2"
+  },
+  "name": "bun-hono-example",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
